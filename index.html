@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atelier Web — site-uri făcute cu grijă</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">Cheap <span>Web</span></div>
+    <div class="navlinks">
+      <nav><ul>
+        <li><a href="#servicii">Servicii</a></li>
+        <li><a href="#dece">De ce noi</a></li>
+        <li><a href="#portofoliu">Portofoliu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul></nav>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero" style="border-top:none;">
+    <div>
+      <h1>Site-uri făcute de mână, nu asamblate în grabă.</h1>
+      <p>Creez și întrețin site-uri pentru afaceri mici — de la prima schiță până la mentenanța de zi cu zi. Prețuri corecte, fără agenție la mijloc.</p>
+      <div class="cta-row">
+        <a href="#contact" class="btn btn-primary">Cere o ofertă</a>
+        <a href="#portofoliu" class="btn btn-ghost">Vezi un proiect</a>
+      </div>
+    </div>
+    <div class="mock">
+      <div class="mock-bar"><i></i><i></i><i></i></div>
+      <div class="mock-body">
+        <div class="mock-row"><span>Site de prezentare</span><span><span class="old">8000 lei</span> <span class="new">de la 2500 lei</span></span></div>
+        <div class="mock-row"><span>Magazin online</span><span><span class="old">18000 lei</span> <span class="new">de la 6000 lei</span></span></div>
+        <div class="mock-row"><span>Mentenanță lunară</span><span><span class="old">800 lei</span> <span class="new">de la 250 lei</span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="servicii">
+    <h2>Servicii</h2>
+    <p class="lede">Tot ce ține de site-ul tău, într-un singur loc — de la construcție până la grija de zi cu zi.</p>
+    <div class="services">
+      <div class="svc"><h3>Creare de site-uri</h3><p>Site-uri de prezentare, magazine online și pagini de aterizare, construite pe măsura afacerii tale.</p></div>
+      <div class="svc"><h3>Mentenanță</h3><p>Actualizări, corectări, conținut nou și backup regulat — ca site-ul să meargă fără griji.</p></div>
+      <div class="svc"><h3>Optimizare & viteză</h3><p>Site-uri rapide, care se văd bine pe telefon și sunt găsite ușor pe Google.</p></div>
+      <div class="svc"><h3>Consultanță</h3><p>Ajutor la alegerea domeniului, găzduirii și a instrumentelor potrivite pentru afacerea ta.</p></div>
+    </div>
+  </section>
+
+  <section id="dece">
+    <div class="why">
+      <div>
+        <h2>De ce Atelier Web</h2>
+        <p class="lede">Lucrez direct cu tine, fără intermediari — de aceea prețurile ies mai mici decât la o agenție.</p>
+      </div>
+      <ul class="why-list">
+        <li><span class="why-mark">—</span><div><b>Prețuri sub piață</b>Fără costuri de agenție, fără taxe ascunse — plătești pentru muncă, nu pentru birou.</div></li>
+        <li><span class="why-mark">—</span><div><b>Un singur om, o singură voce</b>Vorbești mereu cu persoana care îți construiește site-ul, nu cu un manager de proiect.</div></li>
+        <li><span class="why-mark">—</span><div><b>Mentenanță reală</b>Nu dispar după livrare — rămân responsabil pentru site și după lansare.</div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portofoliu">
+    <h2>Portofoliu</h2>
+    <p class="lede">Un exemplu recent de proiect livrat.</p>
+    <div class="folio">
+      <div>
+        <div class="folio-tag">MAGAZIN ONLINE · STRĂȘENI</div>
+        <h3>Butași Premium</h3>
+        <p>Magazin online pentru vânzare de butași de viță de vie, cu afișare stoc și canal de comenzi clar.</p>
+        <a href="https://butasipremium.com" target="_blank" rel="noopener">butasipremium.com ↗</a>
+      </div>
+      <div class="folio-side">proiect<br>livrat &amp; întreținut</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p class="lede">Scrie-mi câteva cuvinte despre proiectul tău — răspund în cel mai scurt timp.</p>
+    <form id="contactForm">
+      <div>
+        <label for="name">Nume</label>
+        <input id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+      </div>
+      <div>
+        <label for="phone">Telefon</label>
+        <input id="phone" name="phone" type="tel" placeholder="06X XXX XXX">
+      </div>
+      <div>
+        <label for="message">Mesaj</label>
+        <textarea id="message" name="message" required placeholder="Spune-mi pe scurt ce tip de site îți trebuie..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:fit-content;">Trimite mesajul</button>
+      <div class="form-msg" id="formMsg"></div>
+    </form>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; width:100%;">
+    <span>Cheap Web — site-uri făcute cu grijă</span>
+    <span>© 2026</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
