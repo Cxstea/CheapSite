@@ -26,6 +26,7 @@
     'port.title': 'Portfolio', 'port.lede': 'A recent delivered project.',
     'port.tag': 'ONLINE SHOP · STRĂȘENI',
     'port.text': 'Online shop selling grapevine cuttings, with stock display and a clear ordering channel.',
+    'port.text2': 'A Landing Page for a beauty studio specializing in eyebrow services, featuring an elegant design, detailed service information, and an easy way to get in touch and book appointments.',
     'port.side': 'project<br>delivered &amp; maintained',
     'contact.title': 'Contact',
     'contact.lede': 'Write me a few words about your project — I’ll reply as soon as possible.',
