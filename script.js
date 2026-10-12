@@ -23,17 +23,13 @@
     'why.1h': 'Below-market prices', 'why.1p': 'No agency overhead, no hidden fees — you pay for the work, not for the office.',
     'why.2h': 'One person, one voice', 'why.2p': 'You always talk to the person building your site, not to a project manager.',
     'why.3h': 'Real maintenance', 'why.3p': 'I don’t disappear after delivery — I stay responsible for the site after launch.',
-   
-    'port.title': 'Portfolio', 'port.lede': 'A recent delivered project.',
+    'port.title': 'Portfolio', 'port.lede': 'Recent projects I delivered.',
     'port.tag': 'ONLINE SHOP · STRĂȘENI',
     'port.text': 'Online shop selling grapevine cuttings, with stock display and a clear ordering channel.',
     'port.side': 'project<br>delivered &amp; maintained',
-
-
-'port.tag2': 'LANDING PAGE · STRĂȘENI',
-'port.text2': 'A presentation website for a beauty studio specializing in eyebrow services, featuring an elegant design, detailed service information, and an easy way to get in touch and book appointments.',
-'port.side2': 'project<br>delivered &amp; maintained',
-    
+    'port.tag2': 'LANDING PAGE · STRĂȘENI',
+    'port.text2': 'Presentation website for a beauty studio specializing in eyebrow services, with an elegant design, clear service information and a simple way to get in touch and book an appointment.',
+    'port.side2': 'project<br>delivered &amp; maintained',
     'contact.title': 'Contact',
     'contact.lede': 'Write me a few words about your project — I’ll reply as soon as possible.',
     'contact.name': 'Name', 'contact.email': 'Email', 'contact.phone': 'Phone', 'contact.message': 'Message',
